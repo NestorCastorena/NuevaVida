@@ -1,0 +1,49 @@
+<script language="javascript">
+$(".corazon").click(function(){
+          var x=$(this).attr("bandera");
+          if(x==1){
+            document.getElementById('panel1').style.display = 'none';
+            document.getElementById('panel2').style.display = 'block';
+          }else{
+            document.getElementById('panel1').style.display = 'block';
+            document.getElementById('panel2').style.display = 'none';
+          }
+          
+        });
+
+
+
+<!--<style>
+input[type=checkbox] {
+	display:none; 
+}
+input[type=checkbox] + label {
+	cursor: pointer;
+}
+label:before {
+    content: url('img/ojo.png');
+	text-shadow: 4px -2px 3px gray;
+	border-radius: 25px;
+	display: inline-block;
+	height: 95px;
+	margin-right: 20px;
+	text-align: center;
+	vertical-align:middle;
+	width: 95px;
+}
+input[type=checkbox]:checked + label:before {
+	content: url('img/ojot.png');
+	font-size: 85px;
+	color: #88c64b;
+	font-family: "Times New Roman";
+}
+</style>-->
+
+	<p>
+		<input type="checkbox" id="check1" checked>
+		<label for="check1">Web development</label>
+	</p>
+	<p>
+		<input type="checkbox" id="check2">
+		<label for="check2">Mobile development</label>
+	</p>
