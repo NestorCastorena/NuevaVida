@@ -5,6 +5,7 @@
 //			$(this).css("opacity", 0.2);
 			$(this).html("<img src='img/ojo.png'>");
 		}else{
+			/// ejele :3
 			$(this).attr("checado","no");
 	//		$(this).css("opacity",1);
 			$(this).html("<img src='img/ojot.png'>");
